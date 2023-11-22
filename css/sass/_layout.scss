@@ -392,11 +392,14 @@ $gutter: 32px;
 .minutes,
 .seconds {
   background-color: $black-normal;
+
   color: $secondary-normal;
   padding: 8px 16px;
   border-radius: 8px;
 
   margin-bottom: 8px;
+
+  position: relative;
 
   @include responsive(s) {
     padding: 0px 8px;
